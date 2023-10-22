@@ -23,6 +23,70 @@ hr{
   margin-bottom: 27px;
 }
 
+/* Header Section Styles */
+header{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background: #562EFF;
+  width: 1440px;
+  height: 90px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  /* padding: 15px; */
+  /* padding: 30px; */
+}
+/* .header-section{
+  width: 900px;
+  border: 1px solid red;
+} */
+.header-brand{
+  width: 870px;
+  align-items: center;
+  /* border: 1px solid red; */
+  margin-left: -11%;
+
+}
+.header-brand{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.brand{
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  
+}
+.brand-logo img{
+  width: 41px;
+  height: 51px;
+}
+.brand-title .title-name{
+  color: #FFF;
+  font-size: 24px;
+}
+.header-link{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+}
+.header-link li{
+  list-style: none; 
+}
+.header-link li img{
+  width: 51px;
+  height: 51px;
+}
+.header-link a{
+  color: #FFF;
+  font-size: 16px;
+  text-decoration: none; 
+}
 /* top players style */
 .top-players{
   margin-bottom: 30px;
