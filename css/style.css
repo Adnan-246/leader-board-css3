@@ -8,7 +8,8 @@ body{
 }
 main{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .container{
   background: #FFFFFF;
@@ -80,4 +81,41 @@ hr{
   text-decoration: none;
   font-size: 16px;
   color: #562EFF;
+}
+
+/* Courses Styles */
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course{
+  width: 253px;
+  height: 270px;
+  border: 1px solid white;
+}
+.course .course-banner img{
+  width: 224px;
+  height: 104px;
+}
+.course-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-info .course-duration{
+  width: 95px;
+  height: 30px;
+  border-radius: 15px;
+  background: #FFE4E8;
+  text-align: center;
+}
+.fa-star{
+  font-size: 12px;
+}
+.fa-star.filled{
+  color: #FFC014;
+}
+.fa-star.empty{
+  color: #AEAEAE;
 }
